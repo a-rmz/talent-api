@@ -10,6 +10,8 @@ app.use('/', (req, res, next) => {
   next();
 });
 
+app.use(bodyParser.json());
+
 app.use('/cats', catRoutes);
 
 app.listen(4000, () => {
