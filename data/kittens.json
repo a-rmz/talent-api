@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "name": "Mr. Whiskers",
+      "age": 2,
+      "color": "Brown"
+    },
+    {
+      "name": "Mauri",
+      "age": 4,
+      "color": "Black and white"
+    },
+    {
+      "name": "Garfield",
+      "age": 25,
+      "color": "Orange"
+    }
+  ]
+}
