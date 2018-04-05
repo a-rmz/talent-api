@@ -1,0 +1,25 @@
+{
+  "name": "talent-api",
+  "version": "1.0.0",
+  "description": "Una introduccion a programar APIs con Node",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-rmz/talent-api.git"
+  },
+  "author": "Alex Ramirez <armzprz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-rmz/talent-api/issues"
+  },
+  "homepage": "https://github.com/a-rmz/talent-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
