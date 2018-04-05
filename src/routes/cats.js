@@ -1,19 +1,14 @@
 const router = require('express').Router();
+const catController = require('../controllers/cats');
 
-router.get('/', (req, res) => {
-  res.sendStatus(200);
-});
+router.get('/', catController.getCats);
 
-router.post('/', (req, res) => {
-  res.sendStatus(201);
-});
+router.get('/:id', catController.getCatById);
 
-router.put('/', (req, res) => {
-  res.sendStatus(201);
-});
+router.post('/', catController.createCat);
 
-router.delete('/', (req, res) => {
-  res.sendStatus(200);
-});
+router.put('/:id', catController.updateCat);
+
+router.delete('/:id', catController.deleteCat);
 
 module.exports = router;
